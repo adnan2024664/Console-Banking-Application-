@@ -17,7 +17,7 @@ class Bank:
         self.customers[customer_id] = new_customer
         return new_customer
 
-    def find_customer_by_account_number(self, account_number):
+    def find_customer_by_account(self, account_number):
         for customer in self.customers.values():
             for account in customer.accounts:
                 if account.account_number == account_number:

@@ -8,18 +8,16 @@ class Account:
     def deposit(self, amount):
         if amount > 0:
             self.balance += amount
-            return f"Deposited {amount}. New balance: {self.balance}"
-        else:
-            return "Deposit amount must be positive."
+            return f"Deposited: {amount}. Balance now: {self.balance}"
+        return "Amount should be positive."
 
     def withdraw(self, amount):
+        if amount <= 0:
+            return "Amount should be positive."
         if amount > self.balance:
-            return "Insufficient balance."
-        elif amount <= 0:
-            return "Withdrawal amount must be positive."
-        else:
-            self.balance -= amount
-            return f"Withdrew {amount}. Remaining balance: {self.balance}"
+            return "Not enough balance."
+        self.balance -= amount
+        return f"Withdrew: {amount}. Remaining balance: {self.balance}"
 
-    def check_balance(self):
-        return f"Current balance: {self.balance}"
+    def get_balance(self):
+        return f"Balance: {self.balance}"

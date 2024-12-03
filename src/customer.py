@@ -13,5 +13,5 @@ class Customer:
         self.accounts.append(new_account)
         return new_account
 
-    def view_accounts(self):
-        return [f"Account {acc.account_number} - {acc.account_type} - Balance: {acc.balance}" for acc in self.accounts]
+    def list_accounts(self):
+        return [f"{acc.account_number} - {acc.account_type}" for acc in self.accounts]
