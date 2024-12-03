@@ -43,7 +43,7 @@ def main():
                 print("Account not found.")
         
         elif choice == "5":
-            print("Goodbye!")
+            print("Goodbye! see you soon")
             break
         else:
             print("Invalid choice. Try again.")

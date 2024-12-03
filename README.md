@@ -5,7 +5,7 @@ This is a console-based banking application in Python, demonstrating some concep
 - Create new accounts.
 - User login and authentication.
 - Balance inquiry.
-- Fund transfer between accounts.
+- Transferring funds between accounts.
 
 ## Structure
 - `src/`: Source code files.
@@ -13,6 +13,6 @@ This is a console-based banking application in Python, demonstrating some concep
 - `docs/`: Documentation and project reports.
 
 ## Usage
-To run the application, navigate to the `src` folder and execute the main program:
+To execute the application, go to the 'src' folder and run the main program:
 ```bash
 python main.py
