@@ -1,5 +1,4 @@
 # Console-Banking-Application-
-# Console-Banking-Application-
 This is a console-based banking application in Python, demonstrating some concepts of Object-Oriented Programming. It allows users to create accounts, log in, check their balance, and transfer funds.
 
 ## Features
