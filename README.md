@@ -1,10 +1,10 @@
-# Console-Banking-Application-
-This is a console-based banking application in Python, demonstrating some concepts of Object-Oriented Programming. It allows users to create accounts, log in, check their balance, and transfer funds.
+# Console-Banking-Application
+This implementation is a console-based bank application which is createdin Pyhton. It shows some of the object oriented programming principles and permits users to create their account, log in, chekck their balances, and transfer money to other accounts. 
 
-## Features
-- Create new accounts.
+## Features of the application
+- Create a new account 
 - User login and authentication.
-- Balance inquiry.
+- inquiries about balances 
 - Transferring funds between accounts.
 
 ## Structure
@@ -12,7 +12,7 @@ This is a console-based banking application in Python, demonstrating some concep
 - `tests/`: Test cases and testing scripts.
 - `docs/`: Documentation and project reports.
 
-## Usage
+## Execution 
 To execute the application, go to the 'src' folder and run the main program:
 ```bash
 python main.py
